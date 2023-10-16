@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>PANDA</title>
+  </head>
+  <body>
+    <!-- header start form here -->
+    <header id="home">
+      <div class="container g-0">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img class="img-fluid" id="home" src="img/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex">
+              <input
+                class="form-control m-auto"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <i class="fas fa-search"></i>
+            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#product">product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header end here -->
+    <!-- banner section start form here -->
+    <section class="banner" id="home">
+      <div class="container g-0">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-md-5">
+                  <h3>Mi LED TV 4A PRO 32</h3>
+                  <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random
+                    text. It has <br />
+                    roots in a piece of classical Latin literature.
+                  </p>
+                  <span>$1239</span>
+                  <a href="" class="btn">Buy NOW</a>
+                </div>
+                <div class="col-md-7">
+                  <img class="img-fluid" src="img/tv.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h3>WH-1000XM3 Wireless Noise Cancelling Headphones</h3>
+                  <p>
+                    With our new HD Noise Cancelling Processor QN1, noise
+                    cancelling power is greatly enhanced. Having a dedicated NC
+                    processor also ensures the reproduction of your music is
+                    never compromised due to processor performance.
+                  </p>
+                  <span>$1239</span>
+                  <a href="" class="btn">Buy NOW</a>
+                </div>
+                <div class="col-md-5">
+                  <img class="img-fluid" src="img/headphone.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-7">
+                  <h3>Microsoft Xbox One X</h3>
+                  <p>
+                    Experience the modernised design of the Xbox Wireless
+                    Controller, featuring sculpted surfaces and refined geometry
+                    for enhanced comfort during gameplay. Stay on target with
+                    textured grip and a hybrid D-pad. Seamlessly capture and
+                    share content with a dedicated Share button.
+                  </p>
+                  <span>$950</span>
+                  <a href="" class="btn">Buy NOW</a>
+                </div>
+                <div class="col-md-5">
+                  <img class="img-fluid" src="img/xbox.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner section end form here -->
+    <!-- catagory section start here -->
+    <section class="catagory" id="product">
+      <div class="container g-0">
+        <h2>Categories</h2>
+
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#watch">
+              <div class="c-item c1">
+                <span>Watch</span>
+                <img src="img/watch.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#bag">
+              <div class="c-item c2">
+                <span>Bag</span>
+                <img src="img/bag.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#shoes">
+              <div class="c-item c3">
+                <span>Shoes</span>
+                <img src="img/shoes.png" alt="" /></div
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- catagory section end here -->
+    <!-- shoes section start here  -->
+    <section class="shoes" id="shoes">
+      <div class="container g-0">
+        <h2>Shoes accessories</h2>
+        <div class="row">
+          <div class="card-group">
+            <div class="card card1 text-center">
+              <img
+                src="img/shoe-1.png "
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                <p class="card-text">
+                  Some quick example text to build on <br />
+                  the card title.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>$999</span>
+                <a href="">Buy Now <i class="fas fa-arrow-right"></i> </a>
+              </div>
+            </div>
+            <div class="card text-center">
+              <img
+                src="img/shoe-2.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Reebok Pump</h5>
+                <p class="card-text">
+                  Some quick example text to build on <br />
+                  the card title.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>$799</span>
+                <a href="">Buy Now <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="card card3 text-center">
+              <img
+                class="img-fluid"
+                src="img/shoe-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Reebok All Terrain</h5>
+                <p class="card-text">
+                  Some quick example text to build on <br />
+                  the card title.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>$699</span>
+                <a href="">Buy Now <i class="fas fa-arrow-right"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- shoes section end here  -->
+    <!-- bag section start here -->
+    <section class="shoes" id="bag">
+      <div class="container g-0">
+        <h2>Bags accessories</h2>
+        <div class="row">
+          <div class="card-group">
+            <div class="card card1 text-center">
+              <img
+                src="img/bag-1.png "
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ison Backpack</h5>
+                <p class="card-text">
+                  Some quick example text to build on <br />
+                  the card title.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>$999</span>
+                <a href="">Buy Now <i class="fas fa-arrow-right"></i> </a>
+              </div>
+            </div>
+            <div class="card text-center">
+              <img
+                src="img/bag-2.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Biaowang Backpack</h5>
+                <p class="card-text">
+                  Some quick example text to build on <br />
+                  the card title.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>$1199</span>
+                <a href="">Buy Now <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="card card3 text-center">
+              <img
+                class="img-fluid"
+                src="img/bag-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                <p class="card-text">
+                  Some quick example text to build on <br />
+                  the card title.
+                </p>
+              </div>
+              <div class="card-footer">
+                <span>$1299</span>
+                <a href="">Buy Now <i class="fas fa-arrow-right"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bag section end here -->
+        <!-- shoes section start here  -->
+        <!-- <section class="watch" id="watch">
+          <div class="container g-0">
+            <h2>Watch accessories</h2>
+            <div class="row">
+              <div class="card-group">
+                <div class="card card1 text-center">
+                  <img
+                    src="img/watch1.png "
+                    class="card-img-top img-fluid"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                    <p class="card-text">
+                      Some quick example text to build on <br />
+                      the card title.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <span>$999</span>
+                    <a href="">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                  </div>
+                </div>
+                <div class="card text-center">
+                  <img
+                    src="img/watch2.png"
+                    class="card-img-top img-fluid"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Reebok Pump</h5>
+                    <p class="card-text">
+                      Some quick example text to build on <br />
+                      the card title.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <span>$799</span>
+                    <a href="">Buy Now <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+                <div class="card card3 text-center">
+                  <img
+                    class="img-fluid"
+                    src="img/watch3.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Reebok All Terrain</h5>
+                    <p class="card-text">
+                      Some quick example text to build on <br />
+                      the card title.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <span>$699</span>
+                    <a href="">Buy Now <i class="fas fa-arrow-right"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <!-- shoes section end here  -->
+    <!-- contact section start here -->
+    <section class="contact" id="about">
+      <div class="container g-0">
+        <div class="row text-center align-items-center">
+          <h2>LET'S STAY IN TOUCH</h2>
+          <p>Get updates on sales specials and more</p>
+          <form action="">
+            <input type="email" placeholder="Enter your Mail " />
+            <button type="submit">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end here -->
+    <!-- footer start here -->
+    <footer id="contact">
+      <div class="container g-0">
+        <h2>Contact With Us</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <form action="">
+              <div class="d-flex">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  class="form-control"
+                />
+                <input
+                  type="number"
+                  placeholder="Your Phone Number"
+                  class="form-control mx-2"
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="form-control"
+                />
+              </div>
+              <div>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Massege"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <a href="" class="btn fbtn">Submit</a>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h2>OUR INFORMATION</h2>
+            <div class="align-items -center">
+              <p>
+                <span><i class="fas fa-envelope"></i></span>
+                Shadafhossain01@gmail.com
+              </p>
+              <p>
+                <span><i class="fas fa-map-marker-alt"></i></span
+                >Dhaka,Bangladesh
+              </p>
+              <p>
+                <span><i class="fas fa-phone-alt"></i></span>+01715536402
+              </p>
+              <p>
+                <span><i class="fab fa-chrome"></i></span> www.panda.com
+              </p>
+            </div>
+            <div class="ficon">
+              <ul>
+                <li>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 text-center mt-5 mb-0">
+          <h3>
+            <span>&copy;</span> ALL right reserved by
+            <span> shadaf hossain & panda </span>
+          </h3>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end  here -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #ff267c;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e5ff00;
+  height: 10%;
+  border-radius: 25px;
+}
+/* header css  */
+header {
+  width: 100%;
+  padding: 20px 0px;
+}
+header form {
+  margin-left: 200px;
+  position: relative;
+}
+header form input {
+  border-radius: 45px !important;
+  border-color: #ffca1d !important;
+  width: 500px !important;
+}
+header form input::placeholder {
+  color: #ff267c !important;
+}
+header form i {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff1e76;
+}
+header .nav-item .nav-link.active {
+  color: #ffca1d;
+}
+.nav-link {
+  color: rgba(128, 121, 121, 0.856);
+  margin-left: 25px;
+  position: relative;
+  color: #ffca1d !important;
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #ff267c;
+  bottom: 6px;
+  left: 0;
+  transition: all 0.5s linear;
+}
+.nav-link:hover::before {
+  width: 100%;
+}
+.nav-link:hover {
+  color: #ff267c;
+}
+/* banner section css */
+.banner {
+  width: 100%;
+  padding: 20px 0px;
+}
+.carousel-inner {
+  background-color: black;
+  padding: 40px 45px;
+}
+.carousel-indicators button {
+  background-color: #ffca1d !important;
+}
+.carousel-item h3 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#ffca1d, #ff267c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+}
+.carousel-item span {
+  color: #ff267c;
+  display: block;
+  font-size: 40px;
+}
+.carousel-item a {
+  background-color: #ffca1d;
+  margin-top: 20px;
+  padding: 10px 35px !important;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  color: rgb(90, 1, 255);
+}
+.carousel-item p {
+  color: white;
+  margin: 20px 0px;
+}
+/* catagory css */
+.catagory {
+  width: 100%;
+  padding: 60px 0px;
+}
+.catagory h2 {
+  margin-bottom: 45px;
+  text-align: center;
+  padding: 25px 0px;
+  background: -webkit-linear-gradient(#ffca1d, #ff267c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+}
+.c-item {
+  padding: 20px 13px;
+  border-radius: 20px;
+  color: white;
+  transition: all 0.5s linear;
+}
+.c-item:hover {
+  transform: scale(1.1);
+}
+.c-item span {
+  margin-right: 105px;
+}
+.c-item span {
+  font-size: 20px;
+  margin-left: 60px;
+  font-weight: 900;
+}
+.c1 {
+  background: linear-gradient(#ff9c35, #ffd019);
+}
+.c2 {
+  background: linear-gradient(#ff5297, #ff1e76);
+}
+.c3 {
+  background: linear-gradient(#4289ff, #3f07f8);
+}
+/* shoes css */
+.shoes {
+  width: 100%;
+  padding: 60px 0px;
+}
+.shoes h2 {
+  text-align: center;
+  padding: 25px 0px;
+  background: -webkit-linear-gradient(#ffca1d, #ff267c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+}
+.card-footer {
+  border-top: none !important;
+}
+.card-footer span {
+  display: block;
+}
+.card {
+  margin-right: 20px !important;
+  border-radius: 25px !important;
+  padding: 15px 0px !important;
+  transition: all 0.3s linear;
+  background-color: transparent;
+  transition: all 0.5s linear;
+}
+.shoes .card p {
+  color: rgb(255, 255, 255) !important;
+}
+.shoes .card:hover p {
+  color: black !important;
+}
+.shoes .card h5 {
+  color: white;
+}
+.shoes .card:hover h5 {
+  color: black !important;
+}
+.card:hover {
+  background-color: white;
+}
+.card1 {
+  padding: 0px;
+}
+.card3 {
+  margin-right: 0px !important;
+}
+.card span {
+  color: #ffca1d;
+  font-size: 20px;
+}
+.card:hover span {
+  color: #ff267c;
+}
+.card:hover a {
+  background: radial-gradient(
+    circle 957px at 8.7% 50.5%,
+    rgba(246, 191, 13, 1) 0%,
+    rgba(249, 47, 47, 1) 90%
+  );
+}
+.card-footer a {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 15px 55px;
+  position: relative;
+  border-radius: 25px;
+  margin: 20px 0px !important;
+  display: inline-block;
+}
+.card-footer a i {
+  position: absolute;
+  color: white;
+  top: 34%;
+  right: 10%;
+  transform: translateX(-50%);
+  color: black;
+}
+
+/* conatct css */
+.contact {
+  width: 100%;
+  background: radial-gradient(
+    circle 957px at 8.7% 50.5%,
+    rgba(246, 191, 13, 1) 0%,
+    rgba(249, 47, 47, 1) 90%
+  );
+  padding: 90px 0px !important;
+}
+.contact h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.contact p {
+  color: white !important;
+  margin-bottom: 35px !important;
+}
+.contact form input {
+  padding: 9px 131px;
+  border-radius: 12px;
+  border: none !important;
+  outline: none !important;
+  background-color: black;
+}
+.contact form input::placeholder {
+  color: white;
+}
+.contact form input:focus {
+  border: 4px solid rgb(255, 255, 255) !important;
+  caret-color: red;
+}
+
+.contact form button {
+  padding: 9px 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none !important;
+  outline: none !important;
+}
+.contact form button:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+/* footer css */
+footer {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+footer form {
+  padding-top: 50px;
+}
+footer input,
+footer textarea {
+  margin-bottom: 15px;
+  border-radius: 20px !important;
+}
+
+footer textarea:focus {
+  background: radial-gradient(
+    circle 957px at 8.7% 50.5%,
+    rgba(246, 191, 13, 1) 0%,
+    rgba(249, 47, 47, 1) 90%
+  );
+  outline: none !important;
+  border: none !important;
+  border: 3px solid #ff1e76 !important;
+  color: rgb(255, 0, 0) !important;
+}
+footer input:focus {
+  background: radial-gradient(
+    circle 957px at 8.7% 50.5%,
+    rgba(246, 191, 13, 1) 0%,
+    rgba(249, 47, 47, 1) 90%
+  );
+  outline: none !important;
+  border: none !important;
+  border: 3px solid #ff1e76 !important;
+
+  caret-color: red !important;
+}
+footer input:focus::placeholder {
+  color: white;
+}
+footer textarea:focus::placeholder {
+  color: white;
+}
+footer .fbtn {
+  background-color: #ff1e76;
+  color: white;
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+footer h2 {
+  text-align: center;
+  padding: 35px 0px;
+  background: -webkit-linear-gradient(#ffca1d, #ff267c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+footer .ficon ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.ficon ul li a i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  background-color: #ff1e76;
+  font-size: 33px !important;
+  color: white;
+  margin-right: 10px;
+}
+.ficon ul li a i:hover {
+  transform: translate(-10px);
+}
+footer p span i {
+  background: -webkit-linear-gradient(#ffca1d, #ff267c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 10px;
+  font-size: 25px;
+}
+footer p {
+  padding-left: 120px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.ficon {
+  padding-left: 100px;
+  margin-top: 50px;
+}
+footer h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+footer h3 span {
+  background: -webkit-linear-gradient(#ffca1d, #ff267c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
